@@ -1,6 +1,8 @@
-import { getUsers } from '@/lib/services/user.services';
-import { IUser } from '@/lib/types/users.types';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+
+import { getUsers } from '@/lib/services/user.services';
+
+import { IUser } from '@/lib/types/users.types';
 
 interface IUserSlice {
   users: IUser[];

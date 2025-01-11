@@ -1,5 +1,6 @@
-import Button from '@/components/button';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+
+import Button from '@/components/button';
 import PaginationSkeleton from '@/components/pagination/pagination.skeleton';
 
 interface PaginationProps {

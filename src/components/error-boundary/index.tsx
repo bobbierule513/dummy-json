@@ -1,6 +1,8 @@
 import React from 'react';
+
 import { AiOutlineWarning } from 'react-icons/ai';
 import { FiRefreshCw } from 'react-icons/fi';
+
 import Button from '@/components/button';
 
 interface ErrorBoundaryProps {

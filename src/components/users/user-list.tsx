@@ -8,7 +8,9 @@ import Modal from '@/components/modal';
 import * as Table from '@/components/table';
 import UserDetails from '@/components/users/user-details';
 import UsersSkeleton from '@/components/users/users.skeleton';
+
 import { useAppSelector } from '@/lib/hooks/useAppSelector.hook';
+
 import { IUser } from '@/lib/types/users.types';
 
 export default function UserList() {

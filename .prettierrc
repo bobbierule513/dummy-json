@@ -10,7 +10,6 @@
   "importOrder": [
     "^react($|/dom)|^react-router-dom($|/)",
     "<THIRD_PARTY_MODULES>",
-    "^@/*",
     "^@/pages",
     "^@/components",
     "^@/lib/store",

@@ -6,6 +6,7 @@ import Axios, {
 } from 'axios';
 
 import { ENV } from '@/lib/config/env';
+
 import { REQUEST_TIMEOUT } from '@/lib/constants';
 
 const axios: AxiosInstance = Axios.create({

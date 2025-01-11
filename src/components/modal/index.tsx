@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import Button from '@/components/button';
+
 import { RxCross2 } from 'react-icons/rx';
+
+import Button from '@/components/button';
 
 interface ModalProps {
   isOpen: boolean;
